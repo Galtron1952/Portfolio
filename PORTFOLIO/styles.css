@@ -1,0 +1,59 @@
+body {
+    color: rgba(0, 0, 0, 0.1);
+    margin: 0;
+    text-align-last: center;
+    font-family: Impact, Haettenschweiler;
+}
+h1,
+h2,
+h3 {
+    color: #37ba37;
+    font-weight: bold;
+    margin: 50px auto 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: #040000;
+}
+.top-container {
+    text-align-last: center;
+    background-color: #19183b;
+    position: relative;
+    padding-top: 5px;
+}
+.middle-container {
+    margin: -48px 5px 10px 5px;
+    padding: 50px 0 11px 20px;
+    text-align: center;
+}
+.bottom-container {
+    background-color: #19183b;
+    padding: 10px 10px 10px 10px;
+}
+.rounded-circle {
+    height: auto;
+    max-width: 50%;
+    padding: 5px 5px 5px 5px;
+}
+#navbarNavAltMarkup .nav-link {
+    color: #000000;
+}
+.navbar-brand {
+    color: black;
+    float: inline-end;
+}
+body {
+    /* Firefox */
+    scrollbar-width: 0%;
+
+    /* Internet Explorer and Edge */
+    -ms-overflow-style: none;
+}
+
+/* Chrome, Safari, and other WebKit browsers */
+body::-webkit-scrollbar {
+    display: none;
+}
+#mobile-apps {
+    padding: 19% 4% 17% 1%;
+}
